@@ -1,0 +1,42 @@
+{
+    "tables": {
+        "table": {
+            "columns": {
+                "state": {
+                    "sdtype": "administrative_unit",
+                    "pii": true
+                },
+                "designatedArea": {
+                    "sdtype": "categorical"
+                },
+                "incidentType": {
+                    "sdtype": "categorical"
+                },
+                "ihProgramDeclared": {
+                    "sdtype": "categorical"
+                },
+                "iaProgramDeclared": {
+                    "sdtype": "categorical"
+                },
+                "paProgramDeclared": {
+                    "sdtype": "categorical"
+                },
+                "hmProgramDeclared": {
+                    "sdtype": "categorical"
+                },
+                "incidentYear": {
+                    "sdtype": "datetime",
+                    "datetime_format": "%Y"
+                },
+                "incidentMonth": {
+                    "sdtype": "categorical"
+                },
+                "incidentDurationDays": {
+                    "sdtype": "numerical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

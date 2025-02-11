@@ -1,2 +1,2 @@
-data/
-.pkl
+data/input
+*.pkl

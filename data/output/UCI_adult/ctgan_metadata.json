@@ -1,0 +1,58 @@
+{
+    "tables": {
+        "table": {
+            "columns": {
+                "age": {
+                    "sdtype": "numerical"
+                },
+                "workclass": {
+                    "sdtype": "categorical"
+                },
+                "fnlwgt": {
+                    "sdtype": "numerical"
+                },
+                "education": {
+                    "sdtype": "categorical"
+                },
+                "education_num": {
+                    "sdtype": "numerical"
+                },
+                "marital_status": {
+                    "sdtype": "categorical"
+                },
+                "occupation": {
+                    "sdtype": "categorical"
+                },
+                "relationship": {
+                    "sdtype": "categorical"
+                },
+                "race": {
+                    "sdtype": "categorical"
+                },
+                "sex": {
+                    "sdtype": "categorical"
+                },
+                "capital_gain": {
+                    "sdtype": "numerical"
+                },
+                "capital_loss": {
+                    "sdtype": "numerical"
+                },
+                "minutes_per_week": {
+                    "sdtype": "numerical"
+                },
+                "native_country": {
+                    "sdtype": "categorical"
+                },
+                "Income_Category": {
+                    "sdtype": "categorical"
+                },
+                "rand10": {
+                    "sdtype": "categorical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}
