@@ -1,0 +1,13 @@
+data,model,metric,value
+validation,all data,f1,.8959
+validation,all data,accuracy,.9993
+validation,large balanced data,.8619
+validation,large balanced data,.9989
+validation,all data,cm00,31631
+validation,all data,cm01,2
+validation,all data,cm10,19
+validation,all data,cm11,40
+validation,large balanced data,cm00,31631
+validation,large balanced data,cm01,2
+validation,large balanced data,cm10,19
+validation,large balanced data,cm11,40

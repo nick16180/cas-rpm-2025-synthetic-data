@@ -1,0 +1,4 @@
+data,model,minutes to fit,epochs,rows,cols
+Kaggle_creditcardfraud,all data,151,250,284807,31
+Kaggle_creditcardfraud,Class = 1,.28,250,433,31
+Kaggle_creditcardfraud,Class = 0,142,250,252682,31
