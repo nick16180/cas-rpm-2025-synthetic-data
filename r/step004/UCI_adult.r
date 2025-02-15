@@ -123,6 +123,15 @@ model2_conf <- val_df %>%
     count = n()
   )
 
+models_agree <- val_df %>%
+  group_by(
+    actual = Income_CategoryI,
+    models_agree = (Income_Category_model1I == Income_Category_model2I) * 1
+  ) %>%
+  summarize(
+    count = n()
+  )
+
 # Output everything
 model1 %>%
   tidy() %>%
@@ -140,3 +149,12 @@ model1_conf %>%
 model2_conf %>%
   fwrite(file.path(ofolder, "model2_confusionmatrix.csv"))
 
+models_agree %>%
+  fwrite(file.path(ofolder, "models_agree"))
+
+# Make some simple plots for the presentation
+model1.resid <- residuals(model1)
+model2.resid <- residuals(model2)
+
+hist(model1.resid, breaks = 25)
+hist(model2.resid, breaks = 25)
