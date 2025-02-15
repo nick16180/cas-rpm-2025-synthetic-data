@@ -19,7 +19,7 @@ Run the following to set up the environment - these might take a while.
 
 ```bash
 uv venv
-uv pip install requests pandas openpyxl sdv jupyter lightgbm statsmodels scikit-learn matplotlib
+uv pip install requests pandas openpyxl sdv jupyter lightgbm scikit-learn matplotlib statsmodels
 ```
 
 ## Data Sources
