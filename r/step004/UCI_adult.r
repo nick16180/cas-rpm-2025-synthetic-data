@@ -150,7 +150,7 @@ model2_conf %>%
   fwrite(file.path(ofolder, "model2_confusionmatrix.csv"))
 
 models_agree %>%
-  fwrite(file.path(ofolder, "models_agree"))
+  fwrite(file.path(ofolder, "models_agree.csv"))
 
 # Make some simple plots for the presentation
 model1.resid <- residuals(model1)
